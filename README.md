@@ -6,7 +6,7 @@
  The purpose of each of these files is described below...
  
 
-### The following files can be used to set up the python virtual environment used for the app
+### The following files can be used to set up the python virtual environment used for testing the app
  _create-venv.bat, _install-requirements.bat, and _requirements.bat
  
 
