@@ -1,2 +1,2 @@
-python -m venv C:\PythonVenv\FlaskSkeleton\Scripts
+python -m venv C:\PythonVenv\FlaskSkeleton
 pause
