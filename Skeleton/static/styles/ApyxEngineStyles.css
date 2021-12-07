@@ -1,0 +1,286 @@
+﻿body {
+    background-color: #000000e0;
+}
+
+select, input {
+    font-size: 16px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #50a2d2;
+    font-weight: bold;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #0072b5;
+}
+
+input[class=left] {
+    float: left;
+    width: 49%;
+    background-color: #f2f2f2;
+}
+
+input[class=setback], select[class=setback] {
+    float: left;
+    width: 44.5%;
+    margin: 2px 0;
+    margin-right: 1%;
+    padding: 7px;
+}
+
+input[class=setback] {
+    background-color: #1093d2bf;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+input[class=setback]:hover {
+    background-color: #1093d2;
+}
+
+select[class=joebiden], input[class=joebiden] {
+    float: left;
+    width: 73%;
+}
+
+input[class=right] {
+    float: right;
+    width: 49%;
+}
+
+select[class=left] {
+    float: left;
+    width: 40%;
+    margin-left: 2%;
+}
+
+input[class=mikehuckabee] {
+    /*background-color: #ee2f2f69;*/
+    float: right;
+    width: 25%;
+}
+
+/*input[class=mikehuckabee]:hover {
+    background-color: #ee2f2f96;
+}*/
+
+input[class=mike] {
+    float: right;
+    width: 12.25%;
+    margin-left: 0.5%;
+}
+
+input[class=huckabee] {
+    float: right;
+    width: 12.25%;
+}
+
+input[type=button] {
+    float: left;
+    width: 9%;
+    background-color: #523dc294;
+    color: white;
+    padding: 7px;
+    border-radius: 4px;
+    border-width: 0.5px;
+    margin-top: 2px;
+    cursor: pointer;  
+}
+
+input[class=fitcontent] {
+    min-width: fit-content;
+}
+
+input[class=remove]:hover {
+    background-color: #523dc2c7;
+}
+
+input[class=disabled] {
+    background-color: lightgrey;
+}
+
+input[class=disabled]:hover {
+    background-color: lightgrey;
+}
+
+input[class=addsetback] {
+    background-color: #06c80082;
+    margin-top: 9px;
+    margin-bottom: 8px;
+    border-width: 3px;
+}
+
+input[class=addsetback]:hover {
+    background-color: #06c800b3;
+}
+
+input[class=addsetbackdisabled] {
+    background-color: lightgrey;
+    margin-top: 9px;
+    margin-bottom: 8px;
+    border-width: 3px;
+}
+
+button[class=dinersaur] {
+    margin: 1px;
+    cursor: pointer;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+div[class=main] {
+    width: 70%;
+    margin: auto;
+    border-radius: 20px;
+    background-color: #d4eafe;
+    /*background-color: #004c8d2e;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-style: double;
+    border-width: 10px;
+}
+
+div[class=bool] {
+    font-size: 16px;
+    color: white;
+    font-family: arial;
+    display: inline-block;
+    background-color: #b9a0019c;
+    padding: 5px 0px;
+    line-height: 20px;
+    margin-bottom: 4px;
+    margin-top: 1px;
+    border-color: gray;
+    border-width: 2.5px;
+    border-style: outset;
+    width: 100%;
+}
+
+div[id=left]:hover, div[id=right]:hover {
+    background-color: #b9a001db;
+}
+
+div[id=left], div[id=leftpressed], div[id=right], div[id=rightpressed] {
+    border-radius: 20px;
+    width: 47.5%;
+    text-align: center;
+}
+
+div[id=left], div[id=leftpressed] {
+    float: right;
+}
+
+div[id=right], div[id=rightpressed] {
+    float: left;
+}
+
+div[id=rightpressed], div[id=leftpressed] {
+    background-color: #b9a001db;
+    border-style: outset;
+}
+
+/*div[state=selected] {
+    background-color: #1301b9db;
+    border-style: outset;
+}*/
+
+div[state=not-selected] {
+    color:black;
+    border-width: 1.5;
+}
+
+div[state=selected] {
+    color: black;
+    border-width: 1.5; /*background-color:blue;*/
+    font-weight: bold;
+}
+
+div[category=data] {
+    background-color:#ffe6ff;
+}
+div[category=data][state=selected]  {
+    background-color:#e451e4;
+}
+div[category=data]:hover{
+    background-color:#eca7ec;
+}
+
+
+div[category=mapset]{
+    background-color:#bfffdc9c;
+}
+div[category=mapset][state=selected]  {
+    background-color:#39b054;
+}
+div[category=mapset]:hover{
+    background-color:#7cd190;
+}
+
+select[class=mikehuckabee] {
+    float: right;
+    width: 25%;
+}
+
+table[class=dataframe] {
+    overflow: hidden;
+    text-align: center;
+    display: inline-table;
+    background-color: #faecd3;
+}
+
+thead {
+    background-color: #ecba70;
+    text-align:center;
+}
+
+tr {
+    text-align: center !important;
+}
+
+.truncate {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 200px; 
+    }
+
+#DG tr:nth-child(even){background-color: #f2f2f2;}
+
+#DG tr:hover {background-color:  #63cae1;}
+
+#DG th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #0072b5;
+    color: white;
+}
+
+#DG table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    
+  }
+  
+#DG td, #DG th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
