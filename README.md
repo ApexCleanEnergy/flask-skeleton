@@ -1,4 +1,4 @@
-# Overview
+# flask-skeleton overview
 
  Minimum working example of a deployable flask application, to be copied and extended as a starting point for any future projects  
  All files prefixed with an underscore are non-essential to the application, which is fully contained inside the 'Skeleton' folder  
